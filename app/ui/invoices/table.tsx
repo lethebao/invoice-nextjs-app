@@ -111,7 +111,7 @@ export default async function InvoicesTable({
                     <div className="flex justify-end gap-3">
                       <UpdateInvoice id={invoice.id} />
                       <DeleteInvoice id={invoice.id} />
-                    </div>
+                  </div>
                   </td>
                 </tr>
               ))}
